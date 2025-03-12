@@ -17,21 +17,22 @@ class CalcButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-
       margin: const EdgeInsets.all(10),
       child: TextButton(
         onPressed: () {},
         style: TextButton.styleFrom(
           backgroundColor: Color(fillColor),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(15),///
+            borderRadius: BorderRadius.circular(25),
+
+            ///
           ),
         ),
         child: Text(
-          text,//result
+          text, //result
           style: TextStyle(
             fontSize: textSize,
-            color: Color(textColor),///////
+            color: Color(textColor), ///////
           ),
         ),
       ),
